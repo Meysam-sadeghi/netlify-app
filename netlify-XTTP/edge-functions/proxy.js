@@ -1,4 +1,4 @@
-const BACKEND_URL = Netlify.env.get("BACKEND_URL") || "https://ns.taskio.ca:2087";
+const BACKEND_URL = Netlify.env.get("BACKEND_URL") || "https://ns.taskio.ca";
 export default async function handler(request, context) {
   try {
     const url = new URL(request.url);
